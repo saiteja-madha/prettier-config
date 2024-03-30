@@ -1,0 +1,27 @@
+{
+    "name": "@saiteja-madha/prettier-config",
+    "version": "1.0.0",
+    "description": "My personal prettier config",
+    "main": "prettier.config.js",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/saiteja-madha/prettier-config.git"
+    },
+    "author": {
+        "name": "Sai Teja Madha",
+        "url": "https://github.com/saiteja-madha"
+    },
+    "keywords": [
+        "prettier",
+        "configuration",
+        "prettier-config"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "prettier": "./prettier.config.js",
+    "peerDependencies": {
+        "prettier": "^3.0.0"
+    }
+}
