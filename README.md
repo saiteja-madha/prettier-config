@@ -19,10 +19,10 @@ pnpm add @saiteja-madha/prettier-config --save-dev
 
 ## Usage
 
-To use this configuration, create a `.prettierrc.js` file in the root of your project and add the following code:
+To use this configuration, add the following line to your `package.json` file:
 
-```javascript
-module.exports = {
-    ...require("@saiteja-madha/prettier-config"),
-};
+```json
+{
+    "prettier": "@saiteja-madha/prettier-config"
+}
 ```

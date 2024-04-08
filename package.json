@@ -1,6 +1,6 @@
 {
     "name": "@saiteja-madha/prettier-config",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "My personal prettier config",
     "main": "prettier.config.js",
     "license": "MIT",
@@ -21,6 +21,10 @@
         "access": "public"
     },
     "prettier": "./prettier.config.js",
+    "dependencies": {
+        "prettier-plugin-ejs": "^1.0.3",
+        "prettier-plugin-tailwindcss": "^0.5.13"
+    },
     "peerDependencies": {
         "prettier": "^3.0.0"
     }
